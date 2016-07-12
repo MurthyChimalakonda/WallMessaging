@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - SignalR-ObjC (2.0.2):
+    - SignalR-ObjC/Core (= 2.0.2)
+  - SignalR-ObjC/Core (2.0.2):
+    - AFNetworking (~> 2.0)
+    - SocketRocket (~> 0.4)
+  - SocketRocket (0.4.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2)
+  - SignalR-ObjC
+  - SocketRocket (= 0.4.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  SignalR-ObjC: 3913aa201f436cf21226e0016ca6c7e94265921a
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+
+PODFILE CHECKSUM: 16b7254d9aa1dda3a8da5330781b2b2fc64d34af
+
+COCOAPODS: 1.0.0
